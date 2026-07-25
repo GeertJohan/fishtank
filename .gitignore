@@ -1,0 +1,16 @@
+# Build output
+/target
+
+# Local machine inventories — may contain BMC credentials, never commit them.
+/fishtank-machines.json
+/fishtank-machines.json5
+*.machines.json
+*.machines.json5
+
+# Local runtime dirs (see .envrc: FISHTANK_CONFIG / FISHTANK_DATA)
+/.config/
+/.data/
+
+# Agent/dev harness scratch
+tmux-gdb.txt
+.tmux-extkeys.save
